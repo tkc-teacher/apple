@@ -1,0 +1,39 @@
+<html>
+    <head>
+       <title>Contact me...</title> 
+       <style>
+            .table_form {
+                border: 1px solid gray;
+                border-radius: 16px;
+                background-color: bisque;
+                padding: 20px;
+                margin: 30px;
+            }
+       </style>
+    </head>
+    <body>
+        <h3>📧 Заповніть форму та відправте повідомлення...</h3>
+        <form method="post">
+            <div class="table_form">
+                <table width="600">
+                    <tr>
+                        <td>Ім'я:</td>
+                        <td><input name="name" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input name="email" type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Повідомлення:</td>
+                        <td><textarea name="message" id="message" cols="40" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Відправити повідомлення..."></input></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </body>
+</html>
